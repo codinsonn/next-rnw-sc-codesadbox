@@ -1,0 +1,23 @@
+{
+  "presets": [
+    "next/babel"
+  ],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true
+      }
+    ],
+    [
+      "module-resolver",
+      {
+        "root": "./",
+        "alias": {
+          "^react-native$": "react-native-web"
+        },
+        "cwd": "packagejson"
+      }
+    ]
+  ]
+}
