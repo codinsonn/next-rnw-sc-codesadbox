@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from "next/document";
+import Document, { Html, Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
 import { AppRegistry } from "react-native-web";
 
@@ -27,7 +27,7 @@ class NextDocument extends Document {
   render() {
     const { styleTags } = this.props;
     return (
-      <html>
+      <Html>
         <Head>
           {/* Output the styles in the head */}
           {styleTags}
@@ -36,7 +36,7 @@ class NextDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }

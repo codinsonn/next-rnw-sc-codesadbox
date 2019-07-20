@@ -1,16 +1,19 @@
-const withMDX = require("@next/mdx");
+const withMDX = require("@zeit/next-mdx")({
+  extension: /.mdx?$/,
+  options: {}
+});
 
 /* --- Next.js Configuration -------------------------------- */
 
 const nextConfig = withMDX({
-  pageExtensions: ["js", "jsx", "md", "mdx"],
   target: "serverless",
-  webpack(config) {
-    // Markdown & MDX support
-    config.module.rules.push({
-      test: /\.(md|mdx)$/,
-      use: ["babel-loader", "@mdx-js/loader"]
-    });
+  pageExtensions: ["js", "jsx", "mdx", "md"],
+  webpack: config => {
+    // Fixes npm packages that depend on `fs` module
+    config.node = {
+      fs: "empty",
+      module: "empty"
+    };
     // Alias react-native
     config.resolve.alias = {
       ...(config.resolve.alias || {}),
