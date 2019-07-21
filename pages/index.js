@@ -69,17 +69,26 @@ const Homepage = () => (
     <S.Paragraph>Related PR's & issues:</S.Paragraph>
     <ul>
       <li>
-        <a href="https://github.com/necolas/react-native-web/issues/1146">
+        <a
+          href="https://github.com/necolas/react-native-web/issues/1146"
+          taget="_blank"
+        >
           react-native-web #1146
         </a>
       </li>
       <li>
-        <a href="https://github.com/styled-components/styled-components/pull/2453">
+        <a
+          href="https://github.com/styled-components/styled-components/pull/2453"
+          taget="_blank"
+        >
           styled-components #2453
         </a>
       </li>
       <li>
-        <a href="https://github.com/styled-components/styled-components/issues/2624">
+        <a
+          href="https://github.com/styled-components/styled-components/issues/2624"
+          taget="_blank"
+        >
           styled-components #2624
         </a>
       </li>
