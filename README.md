@@ -1,8 +1,18 @@
 # SSR & Mobile with Next.js 9, RNW & styled-components
 
-Spectrum chat:
+## Spectrum chats:
 
-["Using styled-components/native with Next.js 9 & react-native-web?"](https://spectrum.chat/styled-components/help/using-styled-components-native-with-next-js-9-react-native-web~c8d00be8-bb12-4828-ba44-b4d9d916a648)
+> styled-components #help
+>
+> ["Using styled-components/native with Next.js 9 & react-native-web?"](https://spectrum.chat/styled-components/help/using-styled-components-native-with-next-js-9-react-native-web~c8d00be8-bb12-4828-ba44-b4d9d916a648)
+
+> next-js #general
+>
+> ["Using styled-components/native with Next.js 9 & react-native-web?"](https://spectrum.chat/next-js/general/using-styled-components-native-with-next-js-9-react-native-web~3cdb042a-a77c-49d2-b4aa-a273be174571)
+
+> expo #general
+>
+> ["Using expo-web / RNW with styled-components/native and Next.js SSR?"](https://spectrum.chat/expo/general/using-expo-web-rnw-with-styled-components-native-and-next-js-ssr~40ada6c5-77f3-4993-84fc-c951961408eb)
 
 ## The idea behind the example
 
