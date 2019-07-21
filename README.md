@@ -1,5 +1,11 @@
 # SSR & Mobile with Next.js 9, RNW & styled-components
 
+## Inspiration
+
+Greatly inspired by this article by Max Stoiber:
+
+> [https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/](https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/)
+
 ## Spectrum chats:
 
 > styled-components #help
@@ -15,10 +21,6 @@
 > ["Using expo-web / RNW with styled-components/native and Next.js SSR?"](https://spectrum.chat/expo/general/using-expo-web-rnw-with-styled-components-native-and-next-js-ssr~40ada6c5-77f3-4993-84fc-c951961408eb)
 
 ## The idea behind the example
-
-Greatly inspired by this article by Max Stoiber:
-
-> [https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/](https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/)
 
 This example features how to use [react-native-web](https://github.com/necolas/react-native-web) and [styled-components/native](https://www.styled-components.com/docs/basics#react-native) together with Next.js to bring the platform-agnostic Components, Styling and APIs of React Native to the web.
 
