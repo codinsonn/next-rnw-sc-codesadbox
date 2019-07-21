@@ -15,7 +15,7 @@
     "react": "16.8.6",
     "react-dom": "16.8.6",
     "react-native-web": "0.11.5",
-    "styled-components": "4.3.2"
+    "styled-components": "5.0.0-beta.6-ej4"
   },
   "license": "ISC",
   "keywords": [],
