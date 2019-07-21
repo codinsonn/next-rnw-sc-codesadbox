@@ -1,11 +1,13 @@
 import Link from "next/link";
+import { View, Text } from "react-native";
+// Readme
 import ReadMe from "../README.md";
 
 /* --- <Homepage /> -------------------------------- */
 
 const Homepage = () => (
-  <div>
-    <h2>Getting the holy trinity of app development working together:</h2>
+  <View>
+    <Text>Getting the holy trinity of app development working together:</Text>
     <ul>
       <li>
         <Link href="/initialProblem">
@@ -15,7 +17,7 @@ const Homepage = () => (
     </ul>
     <hr />
     <ReadMe />
-  </div>
+  </View>
 );
 
 /* --- Export Homepage -------------------------------- */
