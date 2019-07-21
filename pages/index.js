@@ -5,10 +5,14 @@ import ReadMe from "../README.md";
 
 const Homepage = () => (
   <div>
-    Hello World.{" "}
-    <Link href="/about">
-      <a>About</a>
-    </Link>
+    <h2>Getting the holy trinity of app development working together:</h2>
+    <ul>
+      <li>
+        <Link href="/initialProblem">
+          <a>Initial Problem</a>
+        </Link>
+      </li>
+    </ul>
     <hr />
     <ReadMe />
   </div>

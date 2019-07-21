@@ -31,8 +31,10 @@ class NextDocument extends Document {
         <Head>
           {/* Output the styles in the head */}
           {styleTags}
+          {/* Markdown styles */}
+          <link rel="stylesheet" href="/static/markdown.css" />
         </Head>
-        <body style={{ margin: "0px" }}>
+        <body style={{ margin: "10px" }}>
           <Main />
           <NextScript />
         </body>

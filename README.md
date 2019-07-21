@@ -1,11 +1,14 @@
-# Using Next.js with react-native-web & styled-components/native?
+# SSR & Mobile with Next.js 9, RNW & styled-components
 
-[Spectrum: using-styled-components-native-with-next-js-9-react-native-web](https://spectrum.chat/styled-components/help/using-styled-components-native-with-next-js-9-react-native-web~c8d00be8-bb12-4828-ba44-b4d9d916a648)
+Spectrum chat:
+
+["Using styled-components/native with Next.js 9 & react-native-web?"](https://spectrum.chat/styled-components/help/using-styled-components-native-with-next-js-9-react-native-web~c8d00be8-bb12-4828-ba44-b4d9d916a648)
 
 ## The idea behind the example
 
 Greatly inspired by this article by Max Stoiber:
-[https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/](https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/)
+
+> [https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/](https://mxstbr.com/thoughts/tech-choice-regrets-at-spectrum/)
 
 This example features how to use [react-native-web](https://github.com/necolas/react-native-web) and [styled-components/native](https://www.styled-components.com/docs/basics#react-native) together with Next.js to bring the platform-agnostic Components, Styling and APIs of React Native to the web.
 
